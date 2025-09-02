@@ -30,8 +30,8 @@ DESCRIPTION_TEXT = (
 )
 
 # Credentials: either set environment variables or hard-code here (not recommended)
-USERNAME = os.getenv("STEADFAST_USERNAME", "ibnasinha15@gmail.com")
-PASSWORD = os.getenv("STEADFAST_PASSWORD", "P@ssword0194")
+USERNAME = os.getenv("STEADFAST_USERNAME", "yourSteadFastEmail")
+PASSWORD = os.getenv("STEADFAST_PASSWORD", "yourSteadFastPassword")
 
 # Headless browser? Set to True for invisible browser, False to watch it work
 HEADLESS = False
@@ -424,3 +424,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
